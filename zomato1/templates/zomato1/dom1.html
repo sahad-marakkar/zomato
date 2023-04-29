@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #ab{
+            height: 80px;
+            width: 80px;
+            
+        }
+    </style>
+</head>
+<body>
+    <label for="abc">select-color</label>
+    <!-- <select name="col" id="abc" onchange="changeColor(this)"> -->
+    <select name="col" id="abc" onchange="changeColor()">
+        
+        <option value="blue">blue</option>
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="yellow">yellow</option>
+    </select>
+    <br><br><br>
+
+    <label for="ab">display-color</label>
+    <div id="ab"></div>
+
+
+    <!-- <script>
+        function changeColor(event){
+            var color = event.value
+            document.getElementById('ab').style.backgroundColor=color
+        }
+     </script> -->
+<!-- 
+    <script> 
+        function changecolor(){
+            var color = document.getElementById('abc').value 
+           
+
+            if (color == "blue") {
+                document.getElementById('ab').style.backgrondColor = 'blue'
+                
+            
+            }
+            
+           else if (color == "red") {
+                document.getElementById('ab').style.backgrondColor = 'red'
+                
+            
+            }
+            
+          else if (color == "green") {
+                document.getElementById('ab').style.backgrondColor = 'green'
+                
+            
+            }
+            
+           else if (color == "yellow") {
+                document.getElementById('ab').style.backgrondColor = 'yellow'
+                
+            
+            }
+
+        }
+
+
+    </script> --> 
+    <!-- <script>
+        let n = Number(prompt("enter a number"))
+        for(i=0; i<n; i++){
+            for(j=0; j<n; j++){
+                document.write('*')
+            }
+            document.write('<br>')
+        }
+    </script> -->
+    <script>
+        // let fname=prompt('enter firste name')
+        // let lname=prompt('enter last name')
+        // console.log(fname + lname)
+        // console.log('\n') 
+        // console.log('peristroica')
+        for(i=0; i<2; i++){
+            let fname=prompt('enter firste name')
+        let lname=prompt('enter last name')
+        console.log(fname + + lname)
+        console.log('\n')
+
+        }
+    </script>
+</body>
+</html>

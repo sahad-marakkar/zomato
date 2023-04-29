@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        h=document.getElementById('heading')
+        console.log(h);
+
+
+        p=document.getElementsByClassName('content')
+        console.log(p);
+
+        ul=document.getElementsByTagName('ul')
+        console.log(ul);
+
+        function change(){
+            document.getElementById('heading').innerHTML='sahad';
+        }
+
+       
+
+    </script>
+</head>
+<body>
+    <h1 id="heading">Lorem ipsum dolor sit amet.</h1>
+    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quam, soluta aliquam non earum ratione.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem esse corrupti corporis veniam dicta quos?</p>
+    <ul>
+        <li>aaa</li>
+        <li>bbb</li>
+        <li>ccc</li>
+        <li>ddd</li>
+    </ul>
+    <button onclick="change()">
+        click here
+    </button>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src=" {% static  'js/javascript.js' %}"></script>
+</head>
+<body>
+    <button onclick="alert('hellow world')">
+        sign in
+    </button><br><br>
+    <button onclick="alert_fun()">
+        click here
+    </button><br><br>
+    <button onclick="confirm_fun()">
+        confirm
+    </button><br><br>
+    <button onclick="prompt('enter a number')">
+        sign in
+    </button><br><br>
+
+    <script>
+        document.write("hellow welcome")
+         function alert_fun(){
+            alert("this is an alert")
+            
+         }
+
+         function confirm_fun(){
+            confirm("are you sure to delete it?")
+         }
+    </script>
+    <script>
+        console.log('assignment operators')
+        x=10
+        y=22
+        // console.log(x)
+        // console.log(x+=10)
+        // console.log(x-=10)
+        // console.log(x*=10)
+        // console.log(x/=10)
+        // console.log(x**=10)
+        // console.log(x%=10)
+        // console.log(y%=10)
+        console.log("\n")
+        console.log('comparison operators')
+        
+        console.log(x , y)
+        console.log(x == 10)
+        console.log(x == y)
+        console.log(x!=y)
+        console.log(x!=10)
+        console.log(x>0)
+        console.log(x>y)
+        console.log(x<10)
+        console.log(x<=10)
+        console.log(y>=10)
+        console.log(x==='10')
+        console.log(x!=='10')
+        console.log(x<25 && x>5)
+        console.log(y<20 || y>10)
+
+        
+        
+
+    </script>
+
+    
+</body>
+</html>
